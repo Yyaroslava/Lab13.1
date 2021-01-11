@@ -7,6 +7,6 @@
 using namespace nsVar;
 
 void nsDod::dod() {
-	double R = ((2. * n - 1) / (2. * n + 1))/ (x * x);
+	double R = x*x*(2. * n - 1) / (2. * n + 1);
 	a *= R;		// доданок домножується на коефіцієнт рекурентності
 }

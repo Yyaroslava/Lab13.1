@@ -35,7 +35,7 @@ int main()
 		sum();
 
 		cout << "|" << setw(7) << setprecision(2) << x << " |"
-			<< setw(10) << setprecision(5) << 0.5*log((x+1)/(x-1)) << " |"
+			<< setw(10) << setprecision(5) << 0.5*log((1+x)/(1-x)) << " |"
 			<< setw(10) << setprecision(5) << s << " |"
 			<< setw(5) << n << " |"
 			<< endl;

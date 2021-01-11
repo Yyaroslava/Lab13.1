@@ -11,7 +11,7 @@ using namespace nsVar;
 
 void nsSum::sum() {
 	n = 0;
-	a = 1./x;
+	a = x;
 	s = a;
 	do {
 		n++;
